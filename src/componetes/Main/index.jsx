@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Botao from "./Botao"
 const StyledMain = styled.main`
-    margin: 1%;
+    margin: 1% 2%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -12,8 +12,8 @@ const Main = () => {
     return(
         <StyledMain>
             <Botao texto="Produtos em Promoção" />
-            <Botao texto="Vestuário" />
-            <Botao texto="Eletrônicoas" />
+            <Botao texto="Promoções de Vestuário" />
+            <Botao texto=" Promoções de Eletrônicos" />
         </StyledMain>
     )
 }
