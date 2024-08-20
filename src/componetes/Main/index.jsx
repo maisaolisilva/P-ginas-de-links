@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Botao from "./Botao"
 const StyledMain = styled.main`
-    margin: 1% 2%;
+    margin: 24px;
     display: flex;
     flex-direction: column;
     gap: 24px;
