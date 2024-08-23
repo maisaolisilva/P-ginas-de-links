@@ -10,7 +10,7 @@ const StyeledLink = styled(Link)`
 const StyledFooter = styled.footer`
     background: #000000;
     padding: 0.5;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     display: flex;
