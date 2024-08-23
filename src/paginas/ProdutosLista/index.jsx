@@ -14,7 +14,7 @@ const StyledUl = styled.ul`
     align-items: center;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin-bottom: 20%;
     li{
         list-style-type: none;
         flex-shrink: 1 1 auto;
