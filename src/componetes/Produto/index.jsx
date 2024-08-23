@@ -3,7 +3,7 @@ import EstilosGlobais from "../EstilosGlobais"
 import { useId } from "react"
 
 const StyledFigure = styled.figure`
-    max-width: 200px;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     margin: 0;
