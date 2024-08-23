@@ -13,7 +13,6 @@ const StyledUl = styled.ul`
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    gap: 20px;
     padding: 0;
     margin: 0;
     li{
