@@ -3,9 +3,10 @@ import EstilosGlobais from "../EstilosGlobais"
 import { useId } from "react"
 
 const StyledFigure = styled.figure`
-    max-width: 150px;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
+    margin: 0;
     img{
         border-radius: 20px 20px 0 0;
         width: 100%;

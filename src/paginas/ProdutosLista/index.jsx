@@ -13,8 +13,10 @@ const StyledUl = styled.ul`
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
+    gap: 10px;
     padding: 0;
-    margin-bottom: 20%;
+    margin: 2% 2% 25% 2%;
+
     li{
         list-style-type: none;
         flex-shrink: 1 1 auto;

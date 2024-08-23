@@ -11,7 +11,7 @@ const Titulo = ({ children }) => {
         if(children == "vestuario"){
             return <StyledTitule>Produtos de Vestuário</StyledTitule>
         }else{
-            return <StyledTitule>Produtos de Vestuário</StyledTitule>
+            return <StyledTitule>Produtos Eletrônicos</StyledTitule>
         }
     } 
      
