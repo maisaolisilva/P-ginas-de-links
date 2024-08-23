@@ -12,6 +12,7 @@ const StyledUl = styled.ul`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     width: 100%;
     gap: 10px;
     padding: 0;
@@ -21,6 +22,7 @@ const StyledUl = styled.ul`
         list-style-type: none;
         flex-shrink: 1 1 auto;
         margin: 0;
+        flex-grow: 1;
     }
 `
 
