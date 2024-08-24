@@ -13,7 +13,8 @@ const StyledSection = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 2% 2% 25% 2%;  
+    margin: 0;  
+    height: 100vh;
 `
 
 const StyledUl = styled.ul`
@@ -38,7 +39,7 @@ const ProdutosLista = () => {
         <Cabecalho />
         <Titulo>{parametros.tipo}</Titulo>
         <StyledUl>
-            {produtos.map(produto => produto.tipo === parametros.tipo ? <li><Produto produto={produto}/></li> : "")}
+            {produtos.map(produto => produto.tipo === parametros.tipo ? <li><Produto produto={produto}/></li> : null)}
         </StyledUl>
         <Rodape />
     </StyledSection>
