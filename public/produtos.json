@@ -104,5 +104,40 @@
         "link": "https://amzn.to/4dyMn4A",
         "imagem": "https://m.media-amazon.com/images/I/518e+bNX5rL._AC_SX679_.jpg",
         "tipo": "cuidadospessoais"
-    }
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2hQTX4x",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_965233-MLB77517337134_072024-F.webp",
+        "tipo": "vestuario"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2zjGA6t",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_709795-MLB77710395565_072024-F.webp",
+        "tipo": "vestuario"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/15GHw9v",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_952920-MLB74828893649_022024-F.webp",
+        "tipo": "vestuario"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2wARgB4",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_723733-MLB76959641435_062024-F.webp",
+        "tipo": "vestuario"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2wARgB4",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_723733-MLB76959641435_062024-F.webp",
+        "tipo": "vestuario"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/1rYB48W",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_602775-MLB77072500699_062024-F.webp",
+        "tipo": "vestuario"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2yxtMZJ",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_742025-MLB51650170260_092022-F.webp",
+        "tipo": "vestuario"
+    },
 ]
