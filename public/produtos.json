@@ -34,5 +34,75 @@
         "link": "https://mercadolivre.com/sec/1MLMyje",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_663167-MLB69237163106_052023-F.webp",
         "tipo": "cuidadospessoais"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/28u214N",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_657084-MLB73429434996_122023-F.webp",
+        "tipo": "cuidadospessoais"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2CUo1Kz",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_957836-MLB70437104836_072023-F.webp",
+        "tipo": "eletronico"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2DxJvzp",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_611538-MLA48061991949_102021-F.webp",
+        "tipo": "fitness"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2oLggBs",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_638204-MLU73122319784_122023-F.webp",
+        "tipo": "fitness"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/1wkjatC",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_721768-MLB48182318143_112021-F.webp",
+        "tipo": "eletronico"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2UuqNea",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_999239-MLA47755167877_102021-F.webp",
+        "tipo": "ftiness"
+    },
+    {
+        "link": "https://amzn.to/3AGc3Oc",
+        "imagem": "https://m.media-amazon.com/images/I/61MK6LC6xgL._AC_SL1200_.jpg",
+        "tipo": "cuidadospessoais"
+    },
+    {
+        "link": "https://amzn.to/4dBuuSH",
+        "imagem": "https://m.media-amazon.com/images/I/51wXS22gGOL._AC_SX679_.jpg",
+        "tipo": "cuidadospessoais"
+    },
+    {
+        "link": "https://amzn.to/4dSFryT",
+        "imagem": "https://m.media-amazon.com/images/I/41BWAvTMpVL._AC_SX522_.jpg",
+        "tipo": "cuidadospessoais"
+    },
+    {
+        "link": "https://amzn.to/4cE4EMn",
+        "imagem": "https://m.media-amazon.com/images/I/51nkmjBi4rL._AC_SX679_.jpg",
+        "tipo": "cuidadospessoais"
+    },
+    {
+        "link": "https://amzn.to/3MgcsJH",
+        "imagem": "https://m.media-amazon.com/images/I/61ZaI53UUJL._AC_SX679_.jpg",
+        "tipo": "eletronico"
+    },
+    {
+        "link": "https://amzn.to/3AOnqDq",
+        "imagem": "https://m.media-amazon.com/images/I/717yMJ7Sy-L._AC_SY879_.jpg",
+        "tipo": "eletronico"
+    },
+    {
+        "link": "https://amzn.to/3AydQVc",
+        "imagem": "https://m.media-amazon.com/images/I/51cj7VbcDSL._AC_SX522_.jpg",
+        "tipo": "cuidadospessoais"
+    },
+    {
+        "link": "https://amzn.to/4dyMn4A",
+        "imagem": "https://m.media-amazon.com/images/I/518e+bNX5rL._AC_SX679_.jpg",
+        "tipo": "cuidadospessoais"
     }
 ]

@@ -21,7 +21,7 @@ const StyledUl = styled.ul`
     flex-wrap: wrap;
     align-items: center;
     flex-grow: 1;
-    gap: 6%;
+    gap: 10px;
     
     li{
         list-style-type: none;
