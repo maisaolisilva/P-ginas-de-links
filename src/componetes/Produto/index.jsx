@@ -31,6 +31,9 @@ const StyledFigure = styled.figure`
     @media(min-width: 700px){
         max-width: 200px;
     }
+    @media(min-width: 1300px){
+        max-width: 300px;
+    }
 `
 
 const Produto = ({ produto }) => {

@@ -23,10 +23,15 @@ const StyledUl = styled.ul`
     justify-content: center;
     flex-grow: 1;
     gap: 10px;
-    
     li{
         list-style-type: none;
         margin: 0;
+    }
+    @media(min-width: 700px){
+        gap: 25px;
+    }
+    @media(min-width: 1300px){
+        margin-top: 0;
     }
 `
 
