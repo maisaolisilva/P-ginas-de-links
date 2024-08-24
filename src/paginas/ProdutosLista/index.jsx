@@ -13,14 +13,14 @@ const StyledSection = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;  
-    height: 100vh;
+    height: calc(100% - 50px);
+    margin: 2% 2% 10% 2%; 
 `
-
 const StyledUl = styled.ul`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     flex-grow: 1;
     gap: 10px;
     
