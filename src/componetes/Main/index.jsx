@@ -11,9 +11,11 @@ const StyledMain = styled.main`
 const Main = () => {
     return(
         <StyledMain>
-            <Botao texto="Produtos Fitness" path="/produtos/fitness"/>
+            <Botao texto="Produtos Fitness/Esportes" path="/produtos/fitness"/>
             <Botao texto="Produtos de Vestuário" path="/produtos/vestuario"/>
-            <Botao texto=" Eletrônicos" path="/produtos/eletronicos"/>
+            <Botao texto="Produtos Eletrônicos" path="/produtos/eletronicos"/>
+            <Botao texto=" Produtos para Casa" path="/produtos/casa"/>
+            <Botao texto=" Produtos de Cuidados Pessoais" path="/produtos/cuidadospessoais"/>
         </StyledMain>
     )
 }

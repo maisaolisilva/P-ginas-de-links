@@ -7,6 +7,11 @@ const StyledFigure = styled.figure`
     display: flex;
     flex-direction: column;
     margin: 0;
+    &:hover{
+        cursor: pointer;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+    }
     img{
         border-radius: 20px 20px 0 0;
         width: 100%;
@@ -15,30 +20,30 @@ const StyledFigure = styled.figure`
     }
     figcaption{
         text-align: center;
-        a{
-            display: block;
-            text-decoration: none;
+        background: #434141;
+        border-radius: 0 0 20px 20px;
+        p{
             color: #FFFFFF;
-            background: #434141;
-            padding: 0.5em;
-            max-width: 100%;
-            border-radius: 0 0 20px 20px;
             word-wrap: normal;
-            font-weight: 200;
+            font-weight: 400;
         }
+    }
+    @media(min-width: 700px){
+        max-width: 200px;
     }
 `
 
 const Produto = ({ produto }) => {
-    return(
-        <>
-            <EstilosGlobais />
-            <StyledFigure key={useId()}>
-                <img src={produto.imagem}/>
-                <figcaption><a href={produto.link}>Confeir Produto</a></figcaption>
-            </StyledFigure>
+    return(<>
+        <EstilosGlobais />
+            <a href={produto.link}>
+                <StyledFigure key={useId()}>
+                    <img src={produto.imagem}/>
+                    <figcaption><p>Conferir Produto</p></figcaption>
+                </StyledFigure>
+            </a>
 
-        </>
-    )
+        
+    </>)
 }
 export default Produto

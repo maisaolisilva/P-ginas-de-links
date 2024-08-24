@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 const StyledButton = styled(Link)`
- background: #666666;
+ background: #2c2a2a;
  border: none;
  border-radius: 20px;
  width: 100%;
@@ -14,6 +14,12 @@ const StyledButton = styled(Link)`
  align-items: center;
  font-size: 24px;
  font-weight: 300;
+ &:hover{
+   border: 2px solid #FFFFFF;
+ }
+ @media (min-width: 700px){
+   width: 500px;
+ }
 `
 
 const Botao = ({ texto, path }) => {

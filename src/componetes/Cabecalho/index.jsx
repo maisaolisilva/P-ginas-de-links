@@ -5,8 +5,8 @@ const StyledHeader = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
-    max-height: 150px;
-    width: 100%;
+    height: 150px;
+    width: auto;
     padding: 1%;
     img{
         max-height: 150px;

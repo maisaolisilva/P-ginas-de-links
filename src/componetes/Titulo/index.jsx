@@ -5,14 +5,18 @@ const StyledTitule = styled.h1`
     text-align: center;
 `
 const Titulo = ({ children }) => {
-    if(children == "fitness"){
-        return <StyledTitule>Produtos Fitness</StyledTitule>
-    }else{
-        if(children == "vestuario"){
-            return <StyledTitule>Produtos de Vestuário</StyledTitule>
-        }else{
-            return <StyledTitule>Produtos Eletrônicos</StyledTitule>
-        }
+    switch(children){
+        case "fitness":
+            return <StyledTitule>Fitness/Esportes</StyledTitule>
+    
+       case "vestuario":
+            return <StyledTitule>Vestuário</StyledTitule>
+        case "eletronico":
+            return <StyledTitule>Eletrônicos</StyledTitule>
+        case "casa":
+            return <StyledTitule>Casa</StyledTitule>
+        case "cuidadospessoais":
+            return <StyledTitule>Cuidados Pessoais</StyledTitule>
     } 
      
 }

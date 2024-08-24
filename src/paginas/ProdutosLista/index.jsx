@@ -1,5 +1,5 @@
 
-import {    useParams } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import produtos from "../../../public/produtos.json"
 import Cabecalho from "../../componetes/Cabecalho"
 import EstilosGlobais from "../../componetes/EstilosGlobais"
@@ -8,21 +8,24 @@ import Titulo from "../../componetes/Titulo"
 import styled from "styled-components"
 import Rodape from "../../componetes/Rodape"
 
+const StyledSection = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 2% 25% 2%;  
+`
+
 const StyledUl = styled.ul`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 10px;
-    padding: 0;
-    margin: 2% 2% 25% 2%;
-
+    flex-grow: 1;
+    gap: 6%;
+    
     li{
         list-style-type: none;
-        flex-shrink: 1 1 auto;
         margin: 0;
-        flex-grow: 1;
     }
 `
 
@@ -30,7 +33,7 @@ const StyledUl = styled.ul`
 const ProdutosLista = () => {
     const parametros = useParams()
     return(
-    <>
+    <StyledSection>
         <EstilosGlobais />
         <Cabecalho />
         <Titulo>{parametros.tipo}</Titulo>
@@ -38,7 +41,7 @@ const ProdutosLista = () => {
             {produtos.map(produto => produto.tipo === parametros.tipo ? <li><Produto produto={produto}/></li> : "")}
         </StyledUl>
         <Rodape />
-    </>
+    </StyledSection>
     )
 }
 

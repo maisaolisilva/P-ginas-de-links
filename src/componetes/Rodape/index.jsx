@@ -9,23 +9,26 @@ const StyeledLink = styled(Link)`
 `
 const StyledFooter = styled.footer`
     background: #000000;
-    padding: 0.5;
+    padding: 0em 1em;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     h2{
         display: flex;
         gap: 5px;
+        font-weight: 200;
+        align-items: center;
     }
 `
 
 const Rodape = () => {
     return( <StyledFooter>
-        <h2><FaRegCopyright /> Desenvolvido por Maisa</h2>
-        <StyeledLink to="/"><GiReturnArrow size={50}/></StyeledLink>
+        <h2><FaRegCopyright size={20}/> Desenvolvido por Maisa</h2>
+        <StyeledLink to="/"><GiReturnArrow size={40}/></StyeledLink>
     </StyledFooter>
     )
 }

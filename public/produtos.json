@@ -19,5 +19,20 @@
         "link": "https://mercadolivre.com/sec/2PjnAA8",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_813839-MLB52161686279_102022-F.webp",
         "tipo": "vestuario"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2pGM9cY",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_753726-MLB50929986428_072022-F.webp",
+        "tipo": "fitness"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/1XaPDwq",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_697854-MLB74776084051_022024-F.webp",
+        "tipo": "fitness"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/1MLMyje",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_663167-MLB69237163106_052023-F.webp",
+        "tipo": "cuidadospessoais"
     }
 ]
