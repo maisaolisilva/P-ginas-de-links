@@ -14,7 +14,7 @@ const StyledSection = styled.section`
     align-items: center;
     justify-content: center;
     height: calc(100% - 50px);
-    margin: 2% 2% 10% 2%; 
+    margin: 0 2% 10% 2%; 
 `
 const StyledUl = styled.ul`
     display: flex;
@@ -38,17 +38,17 @@ const StyledUl = styled.ul`
 
 const ProdutosLista = () => {
     const parametros = useParams()
-    return(
+    return(<>
+    <EstilosGlobais />
+    <Cabecalho />
     <StyledSection>
-        <EstilosGlobais />
-        <Cabecalho />
         <Titulo>{parametros.tipo}</Titulo>
         <StyledUl>
             {produtos.map(produto => produto.tipo === parametros.tipo ? <li><Produto produto={produto}/></li> : null)}
         </StyledUl>
         <Rodape />
     </StyledSection>
-    )
+    </>)
 }
 
 export default ProdutosLista
