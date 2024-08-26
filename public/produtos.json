@@ -134,5 +134,15 @@
         "link": "https://mercadolivre.com/sec/2yxtMZJ",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_742025-MLB51650170260_092022-F.webp",
         "tipo": "vestuario"
+    },
+    {
+        "link": "https://amzn.to/46YHzTv",
+        "imagem": "https://m.media-amazon.com/images/I/61TWAdC9uWL._AC_SL1500_.jpg",
+        "tipo": "eletronico"
+    },
+    {
+        "link": "https://mercadolivre.com/sec/2qtNtfT",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_609896-MLB54907005697_042023-F.webp",
+        "tipo": "casa"
     }
 ]
